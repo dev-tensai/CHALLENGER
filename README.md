@@ -1,3 +1,3 @@
 # CHALLENGER
 personal researches
-tryna use CSS perfectly
+try to use CSS perfectly
