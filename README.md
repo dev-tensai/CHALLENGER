@@ -8,4 +8,4 @@ git branch -M main
 git remote add origin https://github.com/dev-tensai/CHALLENGER.git
 git push -u origin main
 
-tryna leran code step by step
+tryna learn code step by step
