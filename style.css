@@ -1,0 +1,9 @@
+/*FOND_ECRAN*/
+
+body {
+	background-attachment: fixed;
+	background-image: url(pic/wano.png);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 100%
+}

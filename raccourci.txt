@@ -1,0 +1,33 @@
+Tableau gris et écriture blanche
+
+<table border="1" bgcolor="#232D2B">
+<tr> 
+    <td><font color= "#A6D9D3"><img src="pic/profil.jpg"> <br><center></center></font></td>
+    <td><font color= "#A6D9D3"><img src="pic/profil.jpg"> <br><center></center></font></td>
+    <td><font color= "#A6D9D3"><img src="pic/profil.jpg"> <br><center></center></font></td>
+    <td><font color= "#A6D9D3"><img src="pic/profil.jpg"> <br><center></center></font></td>
+    <td><font color= "#A6D9D3"><img src="pic/profil.jpg"> <br><center></center></font></td>
+    <td><font color= "#A6D9D3"><img src="pic/profil.jpg"> <br><center></center></font></td>
+    <td><font color= "#A6D9D3"><img src="pic/profil.jpg"> <br><center></center></font></td>
+    <td><font color= "#A6D9D3"><img src="pic/profil.jpg"> <br><center></center></font></td>
+</tr>
+
+ </table>
+
+
+tableau avec ascenceur transparent
+
+<div style="background-color:none; width : 1663px ; height:655px;overflow:auto;">
+<table border="0">
+<tr> 
+    <td><img src="pic/profil.jpg"> <br><center></center></td>
+    <td><img src="pic/profil.jpg"> <br><center></center></td>
+    <td><img src="pic/profil.jpg"> <br><center></center></td>
+    <td><img src="pic/profil.jpg"> <br><center></center></td>
+    <td><img src="pic/profil.jpg"> <br><center></center></td>
+    <td><img src="pic/profil.jpg"> <br><center></center></td>
+    <td><img src="pic/profil.jpg"> <br><center></center></td>
+    <td><img src="pic/profil.jpg"> <br><center></center></td>
+</tr>
+
+ </table>

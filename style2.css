@@ -1,0 +1,33 @@
+/*FOND_ECRAN*/
+
+body {
+	background-attachment: fixed;
+	background-image: url(pic/wano.png);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 100%
+}
+/*TITRE_PAGE_1,2_ET_3*/
+h1{  
+	font-size: 200%;
+	color:#B90C0C;
+	text-align: center;
+}
+
+h2{
+	font-size: 150%;
+	color:#A6D9D3;
+	margin-left: 15px;
+}
+
+/*TABLEAU*/
+
+p,
+table,
+div {
+	font-color:silver;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 14px;
+}
+
