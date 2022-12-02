@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- titre de la page -->
+    <title>cours HTML</title>
+    <!-- logo de l'onglet -->
+    <link rel="shortcut icon" href="logo_HTML.png" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Texte - titre H1</h1>
+        <p>
+          Texte basique <em> voici un texte en italique</em
+          ><strong> et un texte en gras </strong>.
+          <span> l'élement span ne revient pas à la ligne</span>.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+      </div>
+    </header>
+    <section>
+      <div>
+        <h2>Photo - titre H2</h2>
+        <img src="paysage.jpg" height="200" alt="image-paysages" />
+      </div>
+      <div>
+        <h3>Liste - titre H3</h3>
+        <ul>
+          <li>UL = Unordered List</li>
+          <li>UL = Unordered List</li>
+          <li>UL = Unordered List</li>
+        </ul>
+        <ol>
+          <li>OL = Ordered List</li>
+          <li>OL = Ordered List</li>
+          <li>OL = Ordered List</li>
+        </ol>
+      </div>
+      <div>
+        <h4>Tableaux - titre H4</h4>
+        <table border="1" width="50%">
+          <!-- Légende -->
+          <caption>
+            Population d'europe
+            <!-- en tête -->
+            <thead>
+              <tr>
+                <th>Pays</th>
+                <th>Population</th>
+              </tr>
+            </thead>
+            <!-- corps du tableau -->
+            <tbody>
+              <tr>
+                <td>France</td>
+                <td>66M</td>
+              </tr>
+              <tr>
+                <td>Allemagne</td>
+                <td>82M</td>
+              </tr>
+              <tr>
+                <td>Espagne</td>
+                <td>47M</td>
+              </tr>
+            </tbody>
+          </caption>
+        </table>
+      </div>
+      <div>
+        <h5>Liens - titre H5</h5>
+        <a href="https://htmlcheatsheet.com/" target="_blank">
+          HTML Cheat Sheet</a
+        >
+        <br />
+        <a
+          href="https://www.toptal.com/designers
+                 /htmlarrows/symbols/"
+          target="_blank"
+        >
+          icône html
+        </a>
+      </div>
+      <div>
+        <h6>Vidéo - titre H6</h6>
+        <video src="vidéo.mp4" autoplay loop muted height="150"></video>
+      </div>
+    </section>
+    <br>
+    <!-- Formulaire -->
+    <section>
+        <h2>Formulaire
+            <form action="/action.php" method="post">
+               <label for="name">Nom</label> <input id="name" 
+               type="text" placeholder="Entrez votre nom"><br>
+               <label for="age">age</label>
+               <input id="age" type="number" min="0"
+                max="99" step="1" value="18">
+
+                <!-- input select -->
+                <label for="gender">genre</label>
+                <select id="gender">
+                <option value="homme">homme</option>
+                <option selected value="femme">femme</option>
+            </select><br> </h2>
+            <!-- input radio -->
+            <div>
+                <input type="radio"name="type" id="human">
+                <label for="human" >humain</label>
+
+                <input type="radio"name="type"checked id="dog">
+                <label for="dog" >chien</label>
+
+                <input type="radio" name="type"id="cat">
+                <label for="cat">chat</label>
+            </div>
+            <textarea *cols="30" rows="10" placeholder="entrez votre demande ici">
+            </textarea><br>
+  </body>
+</html>
